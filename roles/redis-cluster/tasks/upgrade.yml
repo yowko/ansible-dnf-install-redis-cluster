@@ -1,0 +1,3 @@
+---
+- name: Upgrade redis version
+  include_tasks: installredis.yml

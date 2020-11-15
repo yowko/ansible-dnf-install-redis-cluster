@@ -1,0 +1,6 @@
+---
+- name: Install Redis
+  dnf:
+    name: "{{redisversion}}"
+    enablerepo:  remi
+    state: latest
